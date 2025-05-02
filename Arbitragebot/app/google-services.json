@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "155494260742",
+    "project_id": "real-arbitrage-bot",
+    "storage_bucket": "real-arbitrage-bot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155494260742:android:600d909832c4c8758ca387",
+        "android_client_info": {
+          "package_name": "com.example.arbitragebot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155494260742-0rgt8ggdhcjhofougd1rg5mgqsfpk7v8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arbitragebot",
+            "certificate_hash": "62aaa837ee38d9d4d3a9bfa107a5312766b93f6c"
+          }
+        },
+        {
+          "client_id": "155494260742-urom38sk3r8uq2rc2pv9p90tpfc425cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlfE-xjS9vs2KUDtms0-dVapUYKgt5K8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155494260742-urom38sk3r8uq2rc2pv9p90tpfc425cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

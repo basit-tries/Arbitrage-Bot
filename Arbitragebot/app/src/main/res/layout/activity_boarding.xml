@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Boarding">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="20dp">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/logoimg"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/user"
+            android:transitionName="logo image"
+            />
+
+        <TextView
+            android:id="@+id/logo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee"
+            android:text="Bonjour, Welcome "
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:transitionName="logo_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bangers"
+            android:text="The More Arbitrage,
+            The Better"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="36sp"
+            android:layout_marginTop="40dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:fontFamily="@font/bungee"
+                android:text="Login"
+
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:onClick="calllogin"
+                android:transitionName="trans_login"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/buttondesign"
+                android:fontFamily="@font/bungee"
+                android:text="Signup"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:onClick="callsignup"
+                android:transitionName="trans_login"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
